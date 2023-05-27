@@ -9,21 +9,21 @@ struct ILogger {
 	virtual void Log(const string& s) = 0;
 };
 
-struct Engine{
-	float volume = 5;
-	int horse_power = 400;
-
-	friend ostream& operator<<(ostream& os, const Engine& obj){
-		return os << "Volume: " << obj.volume << " - horse_power: " << obj.horse_power <<endl;
-	};
-};
-
 struct ConsoleLogger: ILogger {
 	
 	ConsoleLogger(){};
 
 	void Log(const string& s) override {
 		cout << "LOG: " << s.c_str() << endl;
+	};
+};
+
+struct Engine{
+	float volume = 5;
+	int horse_power = 400;
+
+	friend ostream& operator<<(ostream& os, const Engine& obj){
+		return os << "Volume: " << obj.volume << " - horse_power: " << obj.horse_power <<endl;
 	};
 };
 
