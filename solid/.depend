@@ -1,2 +1,2 @@
 main.o: main.cpp Openclose.h InterfaceSegregationPrinciple.h \
- DependencyInversionPrinciple.h boost/di.hpp
+ DependencyInversionPrinciple.h /home/jerome/clibs/headers/boostdi/di.hpp

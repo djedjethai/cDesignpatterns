@@ -1,0 +1,2 @@
+Person.o: Person.cpp Person.h
+main.o: main.cpp SimpleBuilder.h Person.h
