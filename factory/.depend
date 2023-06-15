@@ -1,0 +1,2 @@
+Factory.o: Factory.cpp Factory.h
+main.o: main.cpp Factory.h FactoryAbstract.h
