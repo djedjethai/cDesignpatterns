@@ -1,0 +1,8 @@
+*.o
+*.
+solid/myapp
+solid/main.o
+
+prototype/main.o
+prototype/myapp
+prototype/PrototypeViaCopyConstructor.o

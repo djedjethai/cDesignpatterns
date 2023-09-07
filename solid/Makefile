@@ -4,10 +4,11 @@ CXX := g++
 CXXFLAGS := -Wall -g
 
 # Boost library directory
-BOOST_LIB_DIR = /usr/lib/
+#BOOST_LIB_DIR = /home/jerome/clibs/headers/boost/lib/
+BOOST_LIB_DIR = /usr/lib
 
 # Boost libraries
-BOOST_LIBS := -lboost_system -lboost_thread -lboost_filesystem
+BOOST_LIBS := -lboost_thread -lboost_filesystem
 
 srcfiles := $(shell find . -maxdepth 1 -name "*.cpp")
 objects  := $(patsubst %.cpp, %.o, $(srcfiles))

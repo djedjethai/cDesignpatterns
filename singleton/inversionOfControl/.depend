@@ -1,0 +1,3 @@
+Database.o: src/Database.cpp src/Database.h
+main.o: src/main.cpp /home/jerome/clibs/headers/boostdi/di.hpp \
+ src/Database.h

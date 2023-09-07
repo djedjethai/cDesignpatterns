@@ -1,0 +1,4 @@
+PrototypeViaCopyConstructor.o: PrototypeViaCopyConstructor.cpp \
+ PrototypeViaCopyConstructor.h
+main.o: main.cpp PrototypeViaCopyConstructor.h
+PrototypeFactory.o: PrototypeFactory.cpp

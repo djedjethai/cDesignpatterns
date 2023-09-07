@@ -1,0 +1,2 @@
+Database.o: src/Database.cpp src/Database.h
+main.o: src/main.cpp src/../src/Database.h

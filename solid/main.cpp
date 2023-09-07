@@ -41,7 +41,7 @@ int main(){
 	cout << eng;
 	
 	auto injector = di::make_injector(
-			di::bind<ILogger>().to<ConsoleLogger>()
+		di::bind<ILogger>().to<ConsoleLogger>()
 	);
 	auto car = injector.create<shared_ptr<Car>>();
 
